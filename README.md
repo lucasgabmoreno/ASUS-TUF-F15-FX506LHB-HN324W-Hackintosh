@@ -6,13 +6,13 @@
 ### Working
 - iGPU Intel Core i5-10300H Comet Lake
 - Wifi & BT Broadcom ?
-- Audio ALC265 (alcid=35)
+- Audio ALC265 (alcid=?)
 - LAN Realtek RTL8168?
 - Trackpad & Keyboard
 - Brightness (keepsyms=1 debug=0x100 -wegnoegpu)
 
 ### Not Working
-- dGPU NVIDIA GTx 1650: [Not supported](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus)
+- dGPU NVIDIA GTX 1650: [Not supported](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus)
 - Wifi & BT Realtek Mediatek MT7921: [Replaced](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets)
 - SMBUS: ?
 
