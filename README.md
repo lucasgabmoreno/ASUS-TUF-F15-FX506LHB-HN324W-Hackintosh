@@ -29,8 +29,15 @@
 ---
 
 ## Installer 
-1. Download Monterey: https://apps.apple.com/us/app/macos-monterey/id1576738294?mt=12
+1. Download [Monterey](https://apps.apple.com/us/app/macos-monterey/id1576738294?mt=12)
 2. Open terminal:
 ```
 sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled
 ```
+
+---
+
+### Credits
+
+- [RobyRew](https://github.com/RobyRew/ASUS-FX506LHB-Hackintosh_OpenCore#post-installation)
+- [Taarkov](https://github.com/taarkov/ASUS-TUF-Gaming-F15-FX-506LH-Hackintosh)
