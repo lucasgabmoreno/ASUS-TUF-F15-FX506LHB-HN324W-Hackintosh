@@ -6,7 +6,7 @@
 ### Working
 - iGPU Intel Core i5-10300H Comet Lake
 - Wifi & BT Broadcom ?
-- Audio ALC265 (alcid=?)
+- Audio ALC256 (alcid=?)
 - LAN Realtek RTL8168?
 - Trackpad & Keyboard
 - Brightness (keepsyms=1 debug=0x100 -wegnoegpu)
