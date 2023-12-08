@@ -1,7 +1,7 @@
 # ASUS TUF F15 FX506LHB HN324W - Hackintosh
 
 - OpenCore x.x.x
-- MacOS 10.15 Catalina ~ 12.0 Monterey
+- MacOS 10.15 Catalina ~ 12.x Monterey
 
 ### Working
 - iGPU Intel Core i5-10300H Comet Lake
