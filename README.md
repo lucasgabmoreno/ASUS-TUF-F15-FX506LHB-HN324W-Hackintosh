@@ -7,7 +7,7 @@
 - iGPU Intel Core i5-10300H Comet Lake
 - Wifi & BT Broadcom BCM94350ZAE / DW 1820A
 - Audio ALC256 (alcid=?)
-- LAN Realtek RTL8168?
+- LAN Realtek RTL8168
 - Trackpad & Keyboard
 - Brightness (keepsyms=1 debug=0x100 -wegnoegpu)
 
