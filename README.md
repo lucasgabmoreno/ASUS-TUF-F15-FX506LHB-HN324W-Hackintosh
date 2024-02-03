@@ -1,8 +1,8 @@
 # ASUS TUF F15 FX506LHB HN324W - Hackintosh
 
 - OpenCore x.x.x
-- MacOS 11.3 Big Sur ~ 12.x Monterey
-
+- MacOS 11.3 Big Sur ~ 13.x Ventura
+- 
 ### Working
 - iGPU Intel Core i5-10300H Comet Lake
 - Wifi & BT Broadcom BCM94350ZAE / DW 1820A
@@ -36,24 +36,13 @@ sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstall
 ```
 ---
 
-## Post install
-Open terminal and disabel Sleep/Wake:
-```
-sudo pmset autopoweroff 0
-sudo pmset powernap 0
-sudo pmset standby 0
-sudo pmset proximitywake 0
-sudo pmset tcpkeepalive 0
-```
-If you need to fix iCloud Ban/iMessages Ban or WiFi/Ethernet Issues
-```
-sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist
-sudo rm /Library/Preferences/SystemConfiguration/preferences.plist
-```
+## Solutions
 
----
+### Wifi not working?
+1. Press power button at least 30 seconds
+2. Reboot
 
-### Credits
+### 5Ghz wifi signal not detected?
+1. Get into your rooter (192.168.0.1)
+2. If your 5Ghz wifi signal channel is 36, change it to 40.
 
-- [RobyRew](https://github.com/RobyRew/ASUS-FX506LHB-Hackintosh_OpenCore#post-installation)
-- [Taarkov](https://github.com/taarkov/ASUS-TUF-Gaming-F15-FX-506LH-Hackintosh)
