@@ -28,14 +28,6 @@
 
 ---
 
-## Install
-1. Download [Monterey](https://apps.apple.com/us/app/macos-monterey/id1576738294?mt=12)
-2. Open terminal:
-```
-sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled
-```
----
-
 ## Solutions
 
 ### Wifi not working?
