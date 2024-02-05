@@ -30,11 +30,28 @@
 
 ## Solutions
 
-### Wifi not working?
+### Wifi not working
 1. Press power button at least 30 seconds
 2. Reboot
 
-### 5Ghz wifi signal not detected?
+### 5Ghz wifi signal not detected
 1. Get into your rooter (192.168.0.1)
 2. If your 5Ghz wifi signal channel is 36, change it to 40.
+
+### Sleep/Wake
+Open terminal and disabel Sleep/Wake:
+```
+sudo pmset autopoweroff 0
+sudo pmset powernap 0
+sudo pmset standby 0
+sudo pmset proximitywake 0
+sudo pmset tcpkeepalive 0
+```
+
+### iCloud Ban/iMessages Ban or WiFi/Ethernet
+If you need to fix iCloud Ban/iMessages Ban or WiFi/Ethernet Issues
+```
+sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist
+sudo rm /Library/Preferences/SystemConfiguration/preferences.plist
+```
 
