@@ -56,3 +56,7 @@ sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist
 sudo rm /Library/Preferences/SystemConfiguration/preferences.plist
 ```
 
+---
+
+## Credits
+[Olarila](https://www.olarila.com/topic/5676-hackintosh-efi-folder-with-clover-and-opencore/)
