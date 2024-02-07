@@ -2,11 +2,11 @@
 
 - OpenCore x.x.x
 - MacOS 11.3 Big Sur ~ 13.x Ventura
-- 
+  
 ### Working
 - iGPU Intel Core i5-10300H Comet Lake
 - Wifi & BT Broadcom BCM94350ZAE / DW 1820A
-- Audio ALC256 (alcverbs=1 alcid=?)
+- Audio ALC256 (alcid 17, 21 and 33 works, 56 and 88 works but low sound at mic)
 - LAN Realtek RTL8168
 - Trackpad & Keyboard
 - Brightness (keepsyms=1 debug=0x100 -wegnoegpu)
@@ -14,7 +14,7 @@
 ### Not Working
 - dGPU NVIDIA GTX 1650 Turing: [Not supported](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus)
 - Wifi & BT Realtek Mediatek MT7921: [Replaced](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets)
-- SMBUS: ?
+- Jack microphone
 
 ---
 
@@ -39,7 +39,7 @@
 2. If your 5Ghz wifi signal channel is 36, change it to 40.
 
 ### Sleep/Wake
-Open terminal and disabel Sleep/Wake:
+1. Open terminal and disabel Sleep/Wake:
 ```
 sudo pmset autopoweroff 0
 sudo pmset powernap 0
@@ -47,6 +47,7 @@ sudo pmset standby 0
 sudo pmset proximitywake 0
 sudo pmset tcpkeepalive 0
 ```
+2. Go to system preferences and disable sleep/awake
 
 ### iCloud Ban/iMessages Ban or WiFi/Ethernet
 If you need to fix iCloud Ban/iMessages Ban or WiFi/Ethernet Issues
