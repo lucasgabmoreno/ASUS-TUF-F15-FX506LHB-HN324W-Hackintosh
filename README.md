@@ -8,7 +8,7 @@
 - Audio ALC256 (alcid 17, 21 and 33 works, 56 and 88 works but low sound at mic)
 - LAN Realtek RTL8168
 - Trackpad & Keyboard
-- Brightness (keepsyms=1 debug=0x100 -wegnoegpu)
+- Brightness
 
 ### Not Working
 - dGPU NVIDIA GTX 1650 Turing: [Not supported](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus)
