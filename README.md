@@ -1,7 +1,6 @@
 # ASUS TUF F15 FX506LHB HN324W - Hackintosh
 
-- OpenCore x.x.x
-- MacOS 11.3 Big Sur ~ 13.x Ventura
+<img src="img/captura.png">
   
 ### Working
 - iGPU Intel Core i5-10300H Comet Lake
@@ -31,8 +30,16 @@
 ## Solutions
 
 ### Wifi not working
-1. Press power button at least 30 seconds
+#### Temporary fix:
+1. Press power button for 30 seconds
 2. Reboot
+3. If keyboard isn't working, reboot again
+#### Permanent fix:
+1. Open notebook and unmount wifi card
+2. Use electrical insulate tape and cover these 3 pins at front and 2 pins back:<br><br>
+<img src="img/DW1820A_Cover_pins.jpg"><br>
+Source image: [Daliansky](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html)
+3. This will cause not to get sleep your wifi card. It is not 100% permanent. If you experience a Wi-Fi drop, use the temporary method again by pressing power button for 30 seconds.
 
 ### 5Ghz wifi signal not detected
 1. Get into your rooter (192.168.0.1)
@@ -56,7 +63,3 @@ sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist
 sudo rm /Library/Preferences/SystemConfiguration/preferences.plist
 ```
 
----
-
-## Credits
-[Olarila](https://www.olarila.com/topic/5676-hackintosh-efi-folder-with-clover-and-opencore/)
