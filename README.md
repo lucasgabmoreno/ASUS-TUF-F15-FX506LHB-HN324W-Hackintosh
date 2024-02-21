@@ -63,3 +63,11 @@ sudo rm /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist
 sudo rm /Library/Preferences/SystemConfiguration/preferences.plist
 ```
 
+
+### Grub - Multiboot
+```
+menuentry "MacOS" --class macosx {
+	search --file --no-floppy --set=root /EFI/OC/OpenCore.efi
+	chainloader /EFI/OC/OpenCore.efi
+}
+```
